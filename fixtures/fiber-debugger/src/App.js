@@ -4,7 +4,7 @@ import ReactNoop from 'react-noop-renderer';
 import Editor from './Editor';
 import Fibers from './Fibers';
 import describeFibers from './describeFibers';
-
+import React from 'react-redux';
 // The only place where we use it.
 const ReactFiberInstrumentation =
   ReactNoop.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
